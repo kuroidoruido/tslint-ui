@@ -1,0 +1,33 @@
+{
+  "name": "tslint-ui",
+  "version": "1.0.0",
+  "description": "Simple WebUI to explore TSlint error",
+  "main": "index.js",
+  "scripts": {
+    "test-tslint": "node index.js -i tests/tslint.json -o output/tslint",
+    "test-nglint": "node index.js -i tests/nglint.json -o output/nglint",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kuroidoruido/tslint-ui.git"
+  },
+  "keywords": [
+    "cli",
+    "typescript",
+    "linter"
+  ],
+  "author": "Anthony Pena",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/kuroidoruido/tslint-ui/issues"
+  },
+  "homepage": "https://github.com/kuroidoruido/tslint-ui#readme",
+  "bin": {
+    "tslint-ui": "index.js"
+  },
+  "dependencies": {
+    "tslint": "^5.9.1",
+    "typescript": "^2.7.2"
+  }
+}
