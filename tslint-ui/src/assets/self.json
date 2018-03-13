@@ -1,0 +1,91 @@
+[{
+  "endPosition": {
+    "character": 23,
+    "line": 19,
+    "position": 521
+  },
+  "failure": "Missing semicolon",
+  "fix": {
+    "innerStart": 521,
+    "innerLength": 0,
+    "innerText": ";"
+  },
+  "name": "/home/anthony/Projets/tslint-ui/tslint-ui/src/app/app.component.ts",
+  "ruleName": "semicolon",
+  "ruleSeverity": "ERROR",
+  "startPosition": {
+    "character": 23,
+    "line": 19,
+    "position": 521
+  }
+}, {
+  "endPosition": {
+    "character": 25,
+    "line": 13,
+    "position": 341
+  },
+  "failure": "Type boolean trivially inferred from a boolean literal, remove type annotation",
+  "fix": {
+    "innerStart": 332,
+    "innerLength": 9,
+    "innerText": ""
+  },
+  "name": "/home/anthony/Projets/tslint-ui/tslint-ui/src/app/filter-block/filter-block.component.ts",
+  "ruleName": "no-inferrable-types",
+  "ruleSeverity": "ERROR",
+  "startPosition": {
+    "character": 18,
+    "line": 13,
+    "position": 334
+  }
+}, {
+  "endPosition": {
+    "character": 26,
+    "line": 3,
+    "position": 98
+  },
+  "failure": "The selector of the component \"FilterBlockComponent\" should have prefix \"app\" (https://angular.io/styleguide#style-02-07)",
+  "name": "/home/anthony/Projets/tslint-ui/tslint-ui/src/app/filter-block/filter-block.component.ts",
+  "ruleName": "component-selector",
+  "ruleSeverity": "ERROR",
+  "startPosition": {
+    "character": 12,
+    "line": 3,
+    "position": 84
+  }
+}, {
+  "endPosition": {
+    "character": 74,
+    "line": 21,
+    "position": 547
+  },
+  "failure": "Missing semicolon",
+  "fix": {
+    "innerStart": 547,
+    "innerLength": 0,
+    "innerText": ";"
+  },
+  "name": "/home/anthony/Projets/tslint-ui/tslint-ui/src/app/error-element/error-element.component.ts",
+  "ruleName": "semicolon",
+  "ruleSeverity": "ERROR",
+  "startPosition": {
+    "character": 74,
+    "line": 21,
+    "position": 547
+  }
+}, {
+  "endPosition": {
+    "character": 27,
+    "line": 6,
+    "position": 190
+  },
+  "failure": "The selector of the component \"ErrorElementComponent\" should have prefix \"app\" (https://angular.io/styleguide#style-02-07)",
+  "name": "/home/anthony/Projets/tslint-ui/tslint-ui/src/app/error-element/error-element.component.ts",
+  "ruleName": "component-selector",
+  "ruleSeverity": "ERROR",
+  "startPosition": {
+    "character": 12,
+    "line": 6,
+    "position": 175
+  }
+}]

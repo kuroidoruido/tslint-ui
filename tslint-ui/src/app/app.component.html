@@ -1,0 +1,15 @@
+<div class="left-pane">
+  <filter-block title="Severity" [filter-values]="filter.severity.values"
+    [selected-filters]="filter.severity.selected" (onSelectedFiltersChange)="onFilterChange($event,'severity')">
+  </filter-block>
+  <hr/>
+  <filter-block title="Files" [filter-values]="filter.file.values"
+    [selected-filters]="filter.file.selected" (onSelectedFiltersChange)="onFilterChange($event,'file')"></filter-block>
+  <hr/>
+  <filter-block title="Rules" [filter-values]="filter.rule.values"
+    [selected-filters]="filter.rule.selected" (onSelectedFiltersChange)="onFilterChange($event,'rule')"></filter-block>
+</div>
+
+<div class="content">
+  <error-element *ngFor="let error of (errors | severities:filter.severity.selected | files:filter.file.selected | rules:filter.rule.selected)" [value]="error"></error-element>
+</div>

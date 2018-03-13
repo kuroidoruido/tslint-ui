@@ -1,0 +1,21 @@
+:host {
+
+  & > div {
+    margin: 1ex 0 1ex 0;
+  }
+
+  .title {
+    text-align: center;
+    font-size: 120%;
+    font-weight: bold;
+  }
+
+  .content {
+    padding: 1ex;
+    font-size: 80%;
+
+    * {
+      color: white;
+    }
+  }
+}

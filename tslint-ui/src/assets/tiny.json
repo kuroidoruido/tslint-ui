@@ -1,0 +1,66 @@
+[{
+  "endPosition": {
+    "character": 28,
+    "line": 3,
+    "position": 120
+  },
+  "failure": "This import is blacklisted, import a submodule instead",
+  "name": "/home/anthony/Documents/Projets/tslint-ui/tests/ARA-Angular-Front-develop/src/app/services/config.service.ts",
+  "ruleName": "import-blacklist",
+  "ruleSeverity": "ERROR",
+  "startPosition": {
+    "character": 24,
+    "line": 3,
+    "position": 116
+  }
+}, {
+  "endPosition": {
+    "character": 3,
+    "line": 79,
+    "position": 2344
+  },
+  "failure": "Declaration of static method not allowed after declaration of instance method. Instead, this should come after instance fields.",
+  "name": "/home/anthony/Documents/Projets/tslint-ui/tests/ARA-Angular-Front-develop/src/app/services/config.service.ts",
+  "ruleName": "member-ordering",
+  "ruleSeverity": "ERROR",
+  "startPosition": {
+    "character": 2,
+    "line": 63,
+    "position": 1921
+  }
+}, {
+  "endPosition": {
+    "character": 47,
+    "line": 1,
+    "position": 89
+  },
+  "failure": "\" should be '",
+  "fix": {
+    "innerStart": 67,
+    "innerLength": 22,
+    "innerText": "'@angular/common/http'"
+  },
+  "name": "/home/anthony/Documents/Projets/tslint-ui/tests/ARA-Angular-Front-develop/src/app/services/daemon.service.ts",
+  "ruleName": "quotemark",
+  "ruleSeverity": "ERROR",
+  "startPosition": {
+    "character": 25,
+    "line": 1,
+    "position": 67
+  }
+}, {
+  "endPosition": {
+    "character": 56,
+    "line": 56,
+    "position": 2056
+  },
+  "failure": "get is deprecated: from v4.0.0 use Type<T> or InjectionToken<T>",
+  "name": "/home/anthony/Documents/Projets/tslint-ui/tests/ARA-Angular-Front-develop/src/app/components/daemon/daemon.component.spec.ts",
+  "ruleName": "deprecation",
+  "ruleSeverity": "WARNING",
+  "startPosition": {
+    "character": 53,
+    "line": 56,
+    "position": 2053
+  }
+}]

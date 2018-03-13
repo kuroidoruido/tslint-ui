@@ -1,0 +1,9 @@
+<div class="title" (click)="clickTitle()">{{title}}</div>
+
+<div class="content" [hidden]="!opened">
+  <mat-selection-list [(ngModel)]="_selectedFilters" (ngModelChange)="onFilterChange($event)">
+    <mat-list-option *ngFor="let f of filterValues" [value]="f">
+      {{f.name + ' (' + f.count + ')'}}
+    </mat-list-option>
+  </mat-selection-list>
+</div>
